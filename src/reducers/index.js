@@ -19,7 +19,7 @@ const counterReducer = (state:initialState,action) => {
             return{
                 ...state,lastAction:action.payload
             }
-        break;
+            break;
         case default:
             return{state}
             break;
